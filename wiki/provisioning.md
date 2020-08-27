@@ -19,4 +19,6 @@ Focal fossa
  sudo apt install timeshift
 ````
 
+````sudo apt-get update && sudo apt-get upgrade -y````
+
 ##	20200827 09:00 /dev/sda5	/dev/sda5 466G 7,1G 435G 2% /
