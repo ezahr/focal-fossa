@@ -10,6 +10,33 @@ Focal fossa
 
 ## 	20200827 09:00 rsync dockuwiki
 
+## ssh-copy-id -i ~/.ssh/id_rsa.pub root@192.168.2.90 
+
+````
+boscp08@boscp08-HP-Compaq-8510p:~/.ssh$ ssh-copy-id -i ~/.ssh/id_rsa.pub root@192.168.2.90 
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/boscp08/.ssh/id_rsa.pub"
+The authenticity of host '192.168.2.90 (192.168.2.90)' can't be established.
+ECDSA key fingerprint is SHA256:ips4bS6Q5Nl/xsd9nc+u4o2rxqXPOSWbVes1rTPwOXs.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+Password: F0B...SU..
+
+Number of key(s) added: 1
+
+Now try logging into the machine, with:   "ssh 'root@192.168.2.90'"
+and check to make sure that only the key(s) you wanted were added.
+
+
+boscp08@boscp08-HP-Compaq-8510p:~/.ssh$ ssh root@192.168.2.90
+Last failed login: Mon Aug 24 17:42:24 CEST 2020 from 192.168.2.6 on ssh:notty
+There was 1 failed login attempt since the last successful login.
+Last login: Mon Aug 17 15:06:57 2020 from 192.168.2.62
+Have a lot of fun...
+suse64:~ # 
+
+````
+
 ## 	ssh-keygen
 
 ````
